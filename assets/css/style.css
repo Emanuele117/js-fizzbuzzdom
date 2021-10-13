@@ -2,6 +2,12 @@ body {
     background-color: darkcyan;
 }
 
+.container {
+    width: 900px;
+    height: 900px;
+    margin: auto;
+}
+
 #lista {
     width: 80px;
     height: 80px;
