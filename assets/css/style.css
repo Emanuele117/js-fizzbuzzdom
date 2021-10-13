@@ -1,0 +1,24 @@
+body {
+    background-color: darkcyan;
+}
+
+#lista {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: green;
+    margin: 10px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 80px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
