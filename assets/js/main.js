@@ -5,7 +5,7 @@ let list = document.querySelector('.list');
 for (let i = 1; i <= 100; i++) {
 
 
-    const element = `<li class="box" id="lista">${i}</li>`
+    const element = `<li class="box">${i}</li>`
 
 
 
@@ -17,7 +17,7 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 3 == 0) {
         list.innerHTML += `<li class="box" id="lista">Fizz</li>`
     } else {
-        list.innerHTML += `<li class="box" id="lista">${i}</li>`
+        list.innerHTML += `<li class="box">${i}</li>`
     }
 
 }

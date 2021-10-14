@@ -8,6 +8,14 @@ body {
     margin: auto;
 }
 
+.box {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(13, 0, 128);
+    margin: 10px;
+}
+
 #lista {
     width: 80px;
     height: 80px;
